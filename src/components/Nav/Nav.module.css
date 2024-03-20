@@ -1,0 +1,16 @@
+header { 
+    margin: 0;
+}
+
+
+.navContainer { 
+    background-color: #242424;
+}
+
+.navContent { 
+        display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 880px;
+    margin: 0 auto;
+}

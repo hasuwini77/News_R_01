@@ -1,0 +1,16 @@
+.mainArticle { 
+border: solid 1px rgb(140, 131, 131);
+color: black;
+padding: 10px;
+margin: 0;
+}
+
+.mainImg { 
+    height: auto;
+    padding: 16px;
+}
+
+p { 
+    font-size: 1.1rem;
+    padding: 7px;
+}

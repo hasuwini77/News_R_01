@@ -1,0 +1,12 @@
+.recentNews { 
+background-color: rgb(255, 255, 255);
+flex: 0 0 25%;
+color: black;
+}
+
+.recentTitle { 
+    color: black;
+    text-decoration: underline;
+    padding: 7px;
+    margin-left: 10px;
+}

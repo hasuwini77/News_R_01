@@ -1,0 +1,10 @@
+.category { 
+    display: flex;
+    background-color: white;
+    padding: 5px;
+}
+
+h3 { 
+    color: black;
+    padding: 5px;
+}

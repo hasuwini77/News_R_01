@@ -1,0 +1,7 @@
+.mainContent { 
+display: flex;
+min-height: 80%;
+justify-content: center;
+
+}
+

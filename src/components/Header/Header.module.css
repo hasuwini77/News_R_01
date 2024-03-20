@@ -1,0 +1,41 @@
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+
+.socialIcons { 
+display: flex;
+}
+
+a {
+    color: black !important;
+}
+.socialIcons li { 
+    margin-right: 5px;
+}
+
+li { 
+list-style-type: none;
+}
+.phoneNumber {
+    display: flex;
+    align-items: center; 
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.phoneNumber li {
+    margin-right: 20px; 
+}
+
+.phoneNumber li:last-child {
+    margin-right: 5px; 
+}
+
+h1 { 
+font-size: 2rem;
+color: black;
+}
