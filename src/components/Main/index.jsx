@@ -6,22 +6,22 @@ import Category from '../Category'
 import BreakingPart from '../BreakingPart'
 import { worldCategory, sportCategory, crimeCategory, entertainmentCategory, swedenCategory } from '../../data/data';
 
-const Main = () => {
+const Main = ({ FPupdateFunction }) => {
 
     return (
         <>
-            < BreakingPart />
+            < BreakingPart BPupdateFunction={FPupdateFunction} />
             <div className={styles.mainContent}>
-                < RecentNews />
-                < BigNews />
-                < FeaturedNews />
+                < RecentNews RCupdateFunction={FPupdateFunction} />
+                < BigNews BNupdateFunction={FPupdateFunction} />
+                < FeaturedNews FNupdateFunction={FPupdateFunction} />
             </div>
             <div className={styles.categoryContent}>
-                <Category name="World" articleArray={worldCategory} />
-                <Category name="Sweden" articleArray={swedenCategory} />
-                <Category name="Sport" articleArray={sportCategory} />
-                <Category name="Entertainment" articleArray={entertainmentCategory} />
-                <Category name="Crime" articleArray={crimeCategory} />
+                <Category name="World" articleArray={worldCategory} CupdateFunction={FPupdateFunction} />
+                <Category name="Sweden" articleArray={swedenCategory} CupdateFunction={FPupdateFunction} />
+                <Category name="Sport" articleArray={sportCategory} CupdateFunction={FPupdateFunction} />
+                <Category name="Entertainment" articleArray={entertainmentCategory} CupdateFunction={FPupdateFunction} />
+                <Category name="Crime" articleArray={crimeCategory} CupdateFunction={FPupdateFunction} />
             </div>
         </>
     )

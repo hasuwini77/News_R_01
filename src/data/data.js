@@ -35,6 +35,8 @@ export const articles = [
     new Article("Bright Lights", "Local Theater Group to Debut New Play", `The [Theater Group Name] is excited to announce the upcoming debut of their new play, "[Play Title]." The play, written by local playwright [Playwright's Name], tells the story of [brief plot summary]. "We are thrilled to be able to bring this new play to our community," said [Theater Group Director's Name]. "It's a powerful and moving story that we think will resonate with audiences of all ages." The play will be performed at the [Theater Name] from [Start Date] to [End Date]. Tickets are on sale now and can be purchased online or at the box office. For more information, please visit the theater group's website at [Website Address].`, "theatre.jpeg", "entertainment")
 ]
 
+export const allArticles = [...articles]
+
 const allSportsArticles = articles.filter((article) => article.category === "sport")
 const allCrimeArticles = articles.filter((article) => article.category === "crime")
 const allWorldArticles = articles.filter((article) => article.category === "world")
